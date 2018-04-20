@@ -96,13 +96,47 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+
+}
+strong {
+  color: #f2511b;
+}
+
+article p span{
+    display: table;
+}
+article {
+
+}
+article header {
+    border-top: 3px solid gray;
+}
+article .article-content {
+    border-top: 3px solid #000000;
+    padding: 4% 1%;
+}
+
+#contact b{
+    font-size: 24px;
+}
+#contact strong{
+    font-size: 16px
+}
+.qr-picture {
+    width: 100px;
+    height: 100px;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+@media screen and (max-width: 480px) {
 
 
-
-
-
-
-
+}
 
 
 
